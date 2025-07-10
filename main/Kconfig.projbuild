@@ -1,0 +1,21 @@
+menu "Configurações do Projeto MQTT LED"
+
+    config MQTT_BROKER_URL
+        string "URL do Broker MQTT"
+        default "broker.hivemq.com"
+        help
+            URL completa do seu broker MQTT (ex: mqtts://seu_host.cloud:8883)
+
+    config MQTT_USERNAME
+        string "Usuário do Broker MQTT"
+        default "ESP32"
+        help
+            Nome de usuário para autenticação no broker MQTT (se necessário)
+
+    config MQTT_PASSWORD
+        string "Senha do Broker MQTT"
+        default "projetoESP32"
+        help
+            Senha para autenticação no broker MQTT (se necessário)
+
+endmenu

@@ -1,0 +1,11 @@
+# Arquivos de compilação
+/build/
+
+# Arquivo de configuração local
+/sdkconfig
+
+# Arquivos gerados pelo editor
+.vscode/
+*.bin
+*.elf
+*.map
